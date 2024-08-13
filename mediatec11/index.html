@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel 🎨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Alumnos 🎎</h1>
+        <hr>
+        <form id="studentForm">
+            <input type="hidden" id="studentId">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="age">Edad: </label>
+                <input type="number" id="age">
+            </div>
+            <div>
+                <label for="grade">Grado: </label>
+                <input type="text" id="grade">
+            </div>
+            <button type="submit">Guardar 💾</button>
+        </form>
+        <h2>Listado de Alumnos 🎎</h2>
+        <ul id="studentList"></ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
